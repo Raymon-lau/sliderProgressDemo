@@ -15,6 +15,7 @@
 		90938340201EEE74004F8F2F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9093833F201EEE74004F8F2F /* main.m */; };
 		9093834A201EEE74004F8F2F /* sliderProgressDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 90938349201EEE74004F8F2F /* sliderProgressDemoTests.m */; };
 		90938355201EEE74004F8F2F /* sliderProgressDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 90938354201EEE74004F8F2F /* sliderProgressDemoUITests.m */; };
+		90938364201EEEB7004F8F2F /* RMScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 90938362201EEEB6004F8F2F /* RMScrollView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		90938350201EEE74004F8F2F /* sliderProgressDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sliderProgressDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		90938354201EEE74004F8F2F /* sliderProgressDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sliderProgressDemoUITests.m; sourceTree = "<group>"; };
 		90938356201EEE74004F8F2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90938362201EEEB6004F8F2F /* RMScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMScrollView.m; sourceTree = "<group>"; };
+		90938363201EEEB7004F8F2F /* RMScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMScrollView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 		9093832F201EEE74004F8F2F /* sliderProgressDemo */ = {
 			isa = PBXGroup;
 			children = (
+				90938363201EEEB7004F8F2F /* RMScrollView.h */,
+				90938362201EEEB6004F8F2F /* RMScrollView.m */,
 				90938330201EEE74004F8F2F /* AppDelegate.h */,
 				90938331201EEE74004F8F2F /* AppDelegate.m */,
 				90938333201EEE74004F8F2F /* ViewController.h */,
@@ -266,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				90938335201EEE74004F8F2F /* ViewController.m in Sources */,
+				90938364201EEEB7004F8F2F /* RMScrollView.m in Sources */,
 				90938340201EEE74004F8F2F /* main.m in Sources */,
 				90938332201EEE74004F8F2F /* AppDelegate.m in Sources */,
 			);
